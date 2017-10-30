@@ -1,0 +1,740 @@
+<ElectronicDesign Guid="087bba1f-961b-41ff-ad65-b4015a1a21b9" Id="1">
+  <Prop Val="PiezoElectric-Z-Trigger" Nm="%%DESIGNNAME" />
+  <Prop Val="C:\Users\pyr0ball\Dropbox\PCBWeb\PiezoElectric-Z-Trigger.cad" Nm="%%DESIGNFILENAME" />
+  <Prop Val="00:00:00" Nm="%%DESIGNTIME" />
+  <UsedPartTypes>
+    <PartType Id="5512" Name="MC14541BDR2G">
+      <Prop Val="N/A" Nm="DATASHEETS" />
+      <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+      <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+      <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+      <Footprint Name="14-SOIC" LibGuid="95b6f471-792c-4ace-81c8-3bcc25fc93f1">
+        <Metrics NamedPadCount="14" PadRows="7" PadCols="2" XPitch="500000" YPitch="500000" IsSmd="True" />
+        <Prop Val="98426bu,98426bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="Mm" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="5533" X="-1023622bu" Y="1500000bu" Name="1" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5534" X="-1023622bu" Y="1000000bu" Name="2" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5535" X="-1023622bu" Y="500000bu" Name="3" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5536" X="-1023622bu" Y="0bu" Name="4" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5537" X="-1023622bu" Y="-500000bu" Name="5" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5538" X="-1023622bu" Y="-1000000bu" Name="6" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5539" X="-1023622bu" Y="-1500000bu" Name="7" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5540" X="1023622bu" Y="-1500000bu" Name="8" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5541" X="1023622bu" Y="-1000000bu" Name="9" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5542" X="1023622bu" Y="-500000bu" Name="10" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5543" X="1023622bu" Y="0bu" Name="11" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5544" X="1023622bu" Y="500000bu" Name="12" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5545" X="1023622bu" Y="1000000bu" Name="13" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="5546" X="1023622bu" Y="1500000bu" Name="14" Width="866142bu" Height="236220bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Poly Id="5547" Name="" Type="Outline" Layer="FpSilk" LineWidth="82677bu">
+            <Crn X="-767716bu" Y="1702756bu" />
+            <Crn X="767718bu" Y="1702756bu" />
+          </Poly>
+          <Poly Id="5548" Name="" Type="Outline" Layer="FpSilk" LineWidth="82677bu">
+            <Crn X="-767716bu" Y="-1702756bu" />
+            <Crn X="767718bu" Y="-1702756bu" />
+          </Poly>
+          <Poly Id="5549" Name="" Type="Outline" Layer="FpSilk" LineWidth="100000bu">
+            <Crn X="-196852bu" Y="1673242bu" Flags="Arcbeg" />
+            <Crn X="0bu" Y="1673242bu" Flags="Arcctr" />
+            <Crn X="196852bu" Y="1673242bu" Flags="Arcend" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="5513" SetName="NewSymbol" LibGuid="00000000-0000-0000-0000-000000000000">
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+        <Prop />
+        <Section Id="5514" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+          <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="U???" Nm="%%SCHREFDES" />
+          <Prop Val="PN???" Nm="%%SCHPARTNUM" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <BitBucket>
+            <SchText Id="5515" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="-5000000bu">
+              <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <SchText Id="5516" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="6000000bu">
+              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            </SchText>
+            <Rect Id="5517" X1="-3000000bu" Y1="-4000000bu" X2="3000000bu" Y2="4000000bu" />
+            <Pin Id="5518" X="-5000000bu" Y="3000000bu" Name="Rtc" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5519" X="-5000000bu" Y="2000000bu" Name="Ctc" Num="2" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5520" X="-5000000bu" Y="1000000bu" Name="Rs" Num="3" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5521" X="-5000000bu" Y="0bu" Name="N/C" Num="4" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5522" X="-5000000bu" Y="-1000000bu" Name="AR" Num="5" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5523" X="-5000000bu" Y="-2000000bu" Name="MR" Num="6" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5524" X="-5000000bu" Y="-3000000bu" Name="Vss" Num="7" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5525" X="5000000bu" Y="-3000000bu" Name="Q" Num="8" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5526" X="5000000bu" Y="-2000000bu" Name="Q/Sel" Num="9" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5527" X="5000000bu" Y="-1000000bu" Name="MODE" Num="10" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5528" X="5000000bu" Y="0bu" Name="N/C" Num="11" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5529" X="5000000bu" Y="1000000bu" Name="A" Num="12" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5530" X="5000000bu" Y="2000000bu" Name="B" Num="13" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="5531" X="5000000bu" Y="3000000bu" Name="Vdd" Num="14" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="MC14541BDR2G">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+        <DefaultFootprint Name="14-SOIC" Guid="95b6f471-792c-4ace-81c8-3bcc25fc93f1" />
+        <DefaultSymbol Name="NewSymbol" Guid="00000000-0000-0000-0000-000000000000" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
+    <PartType Id="6438" Name="MMBT3904-TP">
+      <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
+      <Prop Val="MMBT3904-TP" Nm="MANUFACTURER_PART_NUMBER" />
+      <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+      <Prop Val="MMBT3904TPMSTR-ND" Nm="%%SCHDIGIKEYNUM" />
+      <Prop Val="Micro Commercial Co" Nm="VENDOR" />
+      <Prop Val="TRANS NPN 40V 0.2A SOT23" Nm="DESCRIPTION" />
+      <Prop Val="Lead Free" Nm="LEAD" />
+      <Prop Val="RoHS Compliant" Nm="ROHS" />
+      <Prop Val="Active" Nm="STATUS" />
+      <Prop Val="200mA" Nm="CURRENT - COLLECTOR (IC) (MAX)" />
+      <Prop Val="-" Nm="CURRENT - COLLECTOR CUTOFF (MAX)" />
+      <Prop Val="100 @ 10mA, 1V" Nm="DC CURRENT GAIN (HFE) (MIN) @ IC, VCE" />
+      <Prop Val="300MHz" Nm="FREQUENCY - TRANSITION" />
+      <Prop Val="Surface Mount" Nm="MOUNTING TYPE" />
+      <Prop Val="TO-236-3, SC-59, SOT-23-3" Nm="PACKAGE / CASE" />
+      <Prop Val="Tape &amp; Reel (TR)" Nm="PACKAGING" />
+      <Prop Val="350mW" Nm="POWER - MAX" />
+      <Prop Val="SOT-23" Nm="SUPPLIER DEVICE PACKAGE" />
+      <Prop Val="NPN" Nm="TRANSISTOR TYPE" />
+      <Prop Val="300mV @ 5mA, 50mA" Nm="VCE SATURATION (MAX) @ IB, IC" />
+      <Prop Val="40V" Nm="VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)" />
+      <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+      <Footprint Name="LM60CIM3/NOPB" LibGuid="227901fc-973c-4507-b305-8935e00ccfac">
+        <Metrics NamedPadCount="3" PadRows="2" PadCols="3" XPitch="870000" YPitch="870000" IsSmd="True" />
+        <Prop Val="R" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop Val="In" Nm="%%PCBCURRENTUNITS" />
+        <BitBucket>
+          <Pad Id="6448" X="-375000bu" Y="-435000bu" Name="1" Width="220000bu" Height="450000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="6449" X="375000bu" Y="-435000bu" Name="2" Width="220000bu" Height="450000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Pad Id="6450" X="0bu" Y="435000bu" Name="3" Width="220000bu" Height="450000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+          <Poly Id="6451" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="-134000bu" Y="-275000bu" />
+            <Crn X="134000bu" Y="-275000bu" />
+          </Poly>
+          <Poly Id="6452" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="600000bu" Y="-147300bu" />
+            <Crn X="600000bu" Y="275000bu" />
+          </Poly>
+          <Poly Id="6453" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="600000bu" Y="275000bu" />
+            <Crn X="241000bu" Y="275000bu" />
+          </Poly>
+          <Poly Id="6454" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="-600000bu" Y="275000bu" />
+            <Crn X="-600000bu" Y="-147300bu" />
+          </Poly>
+          <Poly Id="6455" Name="" Type="Outline" Layer="SsTop" LineWidth="60000bu">
+            <Crn X="-241000bu" Y="275000bu" />
+            <Crn X="-600000bu" Y="275000bu" />
+          </Poly>
+        </BitBucket>
+      </Footprint>
+      <Symbol Id="6439" SetName="NEWSYMBOL" LibGuid="70b34f6c-75aa-41c7-b518-2f5f626897aa">
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+        <Prop />
+        <Section Id="6440" SymbolName="" SectionName="" X="0bu" Y="0bu" Rot="0" Req="False" SwapId="0">
+          <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+          <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+          <Prop Val="Q???" Nm="%%SCHREFDES" />
+          <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+          <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+          <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+          <BitBucket>
+            <SchText Id="6441" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="-3000000bu">
+              <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+            </SchText>
+            <SchText Id="6442" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="3000000bu">
+              <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            </SchText>
+            <Rect Id="6443" X1="-1000000bu" Y1="-2000000bu" X2="2000000bu" Y2="2000000bu" />
+            <Pin Id="6444" X="-3000000bu" Y="1000000bu" Name="Gat" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="6445" X="4000000bu" Y="0bu" Name="Src" Num="3" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+            <Pin Id="6446" X="-3000000bu" Y="-1000000bu" Name="Drn" Num="2" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          </BitBucket>
+        </Section>
+      </Symbol>
+      <PartType Name="MMBT3904-TP">
+        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
+        <Prop Val="MMBT3904-TP" Nm="MANUFACTURER_PART_NUMBER" />
+        <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+        <Prop Val="MMBT3904TPMSTR-ND" Nm="%%SCHDIGIKEYNUM" />
+        <Prop Val="Micro Commercial Co" Nm="VENDOR" />
+        <Prop Val="TRANS NPN 40V 0.2A SOT23" Nm="DESCRIPTION" />
+        <Prop Val="Lead Free" Nm="LEAD" />
+        <Prop Val="RoHS Compliant" Nm="ROHS" />
+        <Prop Val="Active" Nm="STATUS" />
+        <Prop Val="200mA" Nm="CURRENT - COLLECTOR (IC) (MAX)" />
+        <Prop Val="-" Nm="CURRENT - COLLECTOR CUTOFF (MAX)" />
+        <Prop Val="100 @ 10mA, 1V" Nm="DC CURRENT GAIN (HFE) (MIN) @ IC, VCE" />
+        <Prop Val="300MHz" Nm="FREQUENCY - TRANSITION" />
+        <Prop Val="Surface Mount" Nm="MOUNTING TYPE" />
+        <Prop Val="TO-236-3, SC-59, SOT-23-3" Nm="PACKAGE / CASE" />
+        <Prop Val="Tape &amp; Reel (TR)" Nm="PACKAGING" />
+        <Prop Val="350mW" Nm="POWER - MAX" />
+        <Prop Val="SOT-23" Nm="SUPPLIER DEVICE PACKAGE" />
+        <Prop Val="NPN" Nm="TRANSISTOR TYPE" />
+        <Prop Val="300mV @ 5mA, 50mA" Nm="VCE SATURATION (MAX) @ IB, IC" />
+        <Prop Val="40V" Nm="VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <DefaultFootprint Name="LM60CIM3/NOPB" Guid="227901fc-973c-4507-b305-8935e00ccfac" />
+        <DefaultSymbol Name="NEWSYMBOL" Guid="70b34f6c-75aa-41c7-b518-2f5f626897aa" />
+      </PartType>
+      <DistributorParts />
+    </PartType>
+  </UsedPartTypes>
+  <Schematic Id="3" ActivePageRef="4">
+    <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+    <Prop Val="4278190335" Nm="%%SCHLINECOLOR" />
+    <Prop Val="100000bu" Nm="%%SCHLINEWIDTH" />
+    <Prop Val="6" Nm="%%SCHVOLTAGECOUNT" />
+    <Prop Val="+1.2V" Nm="%%SCHVOLTAGE" Idx="0" />
+    <Prop Val="+1.8V" Nm="%%SCHVOLTAGE" Idx="1" />
+    <Prop Val="+2.4V" Nm="%%SCHVOLTAGE" Idx="2" />
+    <Prop Val="+3.3V" Nm="%%SCHVOLTAGE" Idx="3" />
+    <Prop Val="+5V" Nm="%%SCHVOLTAGE" Idx="4" />
+    <Prop Val="+12V" Nm="%%SCHVOLTAGE" Idx="5" />
+    <Prop Val="Your Company" Nm="%%DESIGNCOMPANY" />
+    <Prop Val="A" Nm="%%DESIGNREVISION" />
+    <Prop Val="220000000bu,170000000bu" Nm="%%DESIGNDEFAULTPAGESIZE" />
+    <Prop Val="12" Nm="%%DESIGNDEFAULTTEXTSIZE" />
+    <Prop Val="255" Nm="%%SCHFILLCOLOR" />
+    <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+    <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+    <PartList>
+      <Part Id="5552" Name="MC14541BDR2G" RefDes="U1" PartType="5512">
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+        <Prop Val="U1" Nm="%%SCHREFDES" />
+        <Sections Id="5553" SetName="NewSymbol" LibGuid="00000000-0000-0000-0000-000000000000" OwningPart="5552">
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+          <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+          <Prop />
+        </Sections>
+      </Part>
+      <Part Id="6458" Name="MMBT3904-TP" RefDes="Q1" PartType="6438">
+        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
+        <Prop Val="MMBT3904-TP" Nm="MANUFACTURER_PART_NUMBER" />
+        <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+        <Prop Val="MMBT3904TPMSTR-ND" Nm="%%SCHDIGIKEYNUM" />
+        <Prop Val="Micro Commercial Co" Nm="VENDOR" />
+        <Prop Val="TRANS NPN 40V 0.2A SOT23" Nm="DESCRIPTION" />
+        <Prop Val="Lead Free" Nm="LEAD" />
+        <Prop Val="RoHS Compliant" Nm="ROHS" />
+        <Prop Val="Active" Nm="STATUS" />
+        <Prop Val="200mA" Nm="CURRENT - COLLECTOR (IC) (MAX)" />
+        <Prop Val="-" Nm="CURRENT - COLLECTOR CUTOFF (MAX)" />
+        <Prop Val="100 @ 10mA, 1V" Nm="DC CURRENT GAIN (HFE) (MIN) @ IC, VCE" />
+        <Prop Val="300MHz" Nm="FREQUENCY - TRANSITION" />
+        <Prop Val="Surface Mount" Nm="MOUNTING TYPE" />
+        <Prop Val="TO-236-3, SC-59, SOT-23-3" Nm="PACKAGE / CASE" />
+        <Prop Val="Tape &amp; Reel (TR)" Nm="PACKAGING" />
+        <Prop Val="350mW" Nm="POWER - MAX" />
+        <Prop Val="SOT-23" Nm="SUPPLIER DEVICE PACKAGE" />
+        <Prop Val="NPN" Nm="TRANSISTOR TYPE" />
+        <Prop Val="300mV @ 5mA, 50mA" Nm="VCE SATURATION (MAX) @ IB, IC" />
+        <Prop Val="40V" Nm="VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="Q1" Nm="%%SCHREFDES" />
+        <Sections Id="6459" SetName="NEWSYMBOL" LibGuid="70b34f6c-75aa-41c7-b518-2f5f626897aa" OwningPart="6458">
+          <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+          <Prop Val="1000000bu,1000000bu" Nm="%%PCBGRIDSIZE" />
+          <Prop />
+        </Sections>
+      </Part>
+    </PartList>
+    <SchPage Id="4" Name="Sheet 1">
+      <Prop Val="220000000bu,170000000bu" Nm="%%DESIGNDEFAULTPAGESIZE" />
+      <Prop Val="12" Nm="%%DESIGNDEFAULTTEXTSIZE" />
+      <Prop Val="4278190335" Nm="%%SCHLINECOLOR" />
+      <Prop Val="255" Nm="%%SCHFILLCOLOR" />
+      <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+      <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+      <Prop Val="C" Nm="%%SCHPAGEFORMAT" />
+      <Prop Val="120013374bu,76581846bu" Nm="%%SCHPAGEVIEWCENTER" />
+      <Prop Val="61107763bu" Nm="%%SCHPAGEVIEWRADIUS" />
+      <SubNet Id="5646" Name="AGND" />
+      <SubNet Id="5651" Name="AGND" />
+      <SubNet Id="5694" Name="+5V" />
+      <SchTie Id="5661" SubNetRef="5651" X="64000000bu" Y="79000000bu" />
+      <SchTie Id="5677" SubNetRef="5646" X="81000000bu" Y="81000000bu" />
+      <SchTie Id="5680" SubNetRef="5646" X="81000000bu" Y="83000000bu" />
+      <SchTie Id="5702" SubNetRef="5694" X="80000000bu" Y="85000000bu" />
+      <Section Id="5554" SymbolName="" SectionName="" X="73000000bu" Y="82000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="5553">
+        <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="U???" Nm="%%SCHREFDES" />
+        <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+        <Prop Val="Val???" Nm="%%SCHPARTVALUE" />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="N/A" Nm="DATASHEETS" />
+        <Prop Val="N/A" Nm="PRODUCT_PHOTOS" />
+        <BitBucket>
+          <SchText Id="5555" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="-5000000bu">
+            <Prop Val="MC14541BDR2G" Nm="%%SCHPARTNUM" />
+          </SchText>
+          <SchText Id="5556" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="0bu" Y="6000000bu">
+            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+          </SchText>
+          <Rect Id="5557" X1="-3000000bu" Y1="-4000000bu" X2="3000000bu" Y2="4000000bu" />
+          <Pin Id="5558" X="-5000000bu" Y="3000000bu" Name="Rtc" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5559" X="-5000000bu" Y="2000000bu" Name="Ctc" Num="2" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5560" X="-5000000bu" Y="1000000bu" Name="Rs" Num="3" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5561" X="-5000000bu" Y="0bu" Name="N/C" Num="4" Ori="Left" Type="NC" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5562" SubNetRef="5651" X="-5000000bu" Y="-1000000bu" Name="AR" Num="5" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5563" X="-5000000bu" Y="-2000000bu" Name="MR" Num="6" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5564" SubNetRef="5651" X="-5000000bu" Y="-3000000bu" Name="Vss" Num="7" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5565" X="5000000bu" Y="-3000000bu" Name="Q" Num="8" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5566" SubNetRef="5694" X="5000000bu" Y="-2000000bu" Name="Q/Sel" Num="9" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5567" SubNetRef="5646" X="5000000bu" Y="-1000000bu" Name="MODE" Num="10" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5568" X="5000000bu" Y="0bu" Name="N/C" Num="11" Ori="Right" Type="NC" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5569" SubNetRef="5646" X="5000000bu" Y="1000000bu" Name="A" Num="12" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5570" SubNetRef="5646" X="5000000bu" Y="2000000bu" Name="B" Num="13" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="5571" SubNetRef="5694" X="5000000bu" Y="3000000bu" Name="Vdd" Num="14" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+        </BitBucket>
+      </Section>
+      <Port Id="5630" SymbolName="" X="64000000bu" Y="73000000bu" Rot="0" Type="AGnd" NetName="AGND">
+        <BitBucket>
+          <Line Id="5632" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+          <Line Id="5633" StartX="-500000bu" StartY="-500000bu" EndX="500000bu" EndY="-500000bu" />
+          <Line Id="5634" StartX="-250000bu" StartY="-1000000bu" EndX="250000bu" EndY="-1000000bu" />
+          <Pin Id="5631" SubNetRef="5651" X="0bu" Y="2000000bu" Name="" Num="" Ori="Top" Type="Ground" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+        </BitBucket>
+        <Line Id="5632" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+        <Line Id="5633" StartX="-500000bu" StartY="-500000bu" EndX="500000bu" EndY="-500000bu" />
+        <Line Id="5634" StartX="-250000bu" StartY="-1000000bu" EndX="250000bu" EndY="-1000000bu" />
+        <Pin Id="5631" SubNetRef="5651" X="0bu" Y="2000000bu" Name="" Num="" Ori="Top" Type="Ground" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+      </Port>
+      <Port Id="5635" SymbolName="" X="81000000bu" Y="73000000bu" Rot="0" Type="AGnd" NetName="AGND">
+        <BitBucket>
+          <Line Id="5637" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+          <Line Id="5638" StartX="-500000bu" StartY="-500000bu" EndX="500000bu" EndY="-500000bu" />
+          <Line Id="5639" StartX="-250000bu" StartY="-1000000bu" EndX="250000bu" EndY="-1000000bu" />
+          <Pin Id="5636" SubNetRef="5646" X="0bu" Y="2000000bu" Name="" Num="" Ori="Top" Type="Ground" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+        </BitBucket>
+        <Line Id="5637" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+        <Line Id="5638" StartX="-500000bu" StartY="-500000bu" EndX="500000bu" EndY="-500000bu" />
+        <Line Id="5639" StartX="-250000bu" StartY="-1000000bu" EndX="250000bu" EndY="-1000000bu" />
+        <Pin Id="5636" SubNetRef="5646" X="0bu" Y="2000000bu" Name="" Num="" Ori="Top" Type="Ground" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+      </Port>
+      <Port Id="5685" SymbolName="" X="81000000bu" Y="90000000bu" Rot="0" Type="Pwr" NetName="+5V">
+        <BitBucket>
+          <Line Id="5687" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+          <SchText Id="5688" String="$%%SCHPORTNETNAME" Rot="0" PtHeight="12" Justify="LowerCenter" Invisible="False" X="0bu" Y="100000bu" />
+          <Pin Id="5686" SubNetRef="5694" X="0bu" Y="-2000000bu" Name="" Num="" Ori="Bottom" Type="Power" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+        </BitBucket>
+        <Line Id="5687" StartX="-1000000bu" StartY="0bu" EndX="1000000bu" EndY="0bu" />
+        <SchText Id="5688" String="$%%SCHPORTNETNAME" Rot="0" PtHeight="12" Justify="LowerCenter" Invisible="False" X="0bu" Y="100000bu" />
+        <Pin Id="5686" SubNetRef="5694" X="0bu" Y="-2000000bu" Name="" Num="" Ori="Bottom" Type="Power" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+      </Port>
+      <Section Id="6460" SymbolName="" SectionName="" X="94000000bu" Y="78000000bu" Rot="0" Req="False" SwapId="0" OwningSymbolSet="6459">
+        <Prop Val="Q???" Nm="%%SCHREFDES" />
+        <Prop />
+        <Prop Val="Tol???" Nm="%%SCHPARTTOL" />
+        <Prop Val="Q" Nm="%%SCHREFDESPREFIX" />
+        <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+        <Prop Val="PCBWeb.Models.PartManagerModels.LabelPath" Nm="%%PARTLABELS" />
+        <Prop Val="MMBT3904-TP" Nm="MANUFACTURER_PART_NUMBER" />
+        <Prop Val="MMBT3904TPMSTR-ND" Nm="%%SCHDIGIKEYNUM" />
+        <Prop Val="Micro Commercial Co" Nm="VENDOR" />
+        <Prop Val="TRANS NPN 40V 0.2A SOT23" Nm="DESCRIPTION" />
+        <Prop Val="Lead Free" Nm="LEAD" />
+        <Prop Val="RoHS Compliant" Nm="ROHS" />
+        <Prop Val="Active" Nm="STATUS" />
+        <Prop Val="200mA" Nm="CURRENT - COLLECTOR (IC) (MAX)" />
+        <Prop Val="-" Nm="CURRENT - COLLECTOR CUTOFF (MAX)" />
+        <Prop Val="100 @ 10mA, 1V" Nm="DC CURRENT GAIN (HFE) (MIN) @ IC, VCE" />
+        <Prop Val="300MHz" Nm="FREQUENCY - TRANSITION" />
+        <Prop Val="Surface Mount" Nm="MOUNTING TYPE" />
+        <Prop Val="TO-236-3, SC-59, SOT-23-3" Nm="PACKAGE / CASE" />
+        <Prop Val="Tape &amp; Reel (TR)" Nm="PACKAGING" />
+        <Prop Val="350mW" Nm="POWER - MAX" />
+        <Prop Val="SOT-23" Nm="SUPPLIER DEVICE PACKAGE" />
+        <Prop Val="NPN" Nm="TRANSISTOR TYPE" />
+        <Prop Val="300mV @ 5mA, 50mA" Nm="VCE SATURATION (MAX) @ IB, IC" />
+        <Prop Val="40V" Nm="VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)" />
+        <BitBucket>
+          <SchText Id="6461" String="$%%SCHPARTNUM" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000002bu" Y="-4000000bu">
+            <Prop Val="MMBT3904-TP" Nm="%%SCHPARTNUM" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <SchText Id="6462" String="$%%SCHREFDES" Rot="0" PtHeight="12" Justify="CenterCenter" Invisible="False" X="1000000bu" Y="4000000bu">
+            <Prop Val="U" Nm="%%SCHREFDESPREFIX" />
+            <Prop Val="4278190080" Nm="%%SCHTEXTCOLOR" />
+          </SchText>
+          <Rect Id="6463" X1="-1000000bu" Y1="-2000000bu" X2="2000000bu" Y2="2000000bu" />
+          <Pin Id="6464" X="-3000000bu" Y="1000000bu" Name="Gat" Num="1" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="6465" X="4000000bu" Y="0bu" Name="Src" Num="3" Ori="Right" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+          <Pin Id="6466" X="-3000000bu" Y="-1000000bu" Name="Drn" Num="2" Ori="Left" Type="Passive" Shape="Normal" NmOffX="0bu" NmOffY="0bu" NumOffX="0bu" NumOffY="0bu" />
+        </BitBucket>
+      </Section>
+      <Wire Id="5658" StartRef="5562" EndRef="5661">
+        <Crn X="68000000bu" Y="81000000bu" />
+        <Crn X="64000000bu" Y="81000000bu" />
+        <Crn X="64000000bu" Y="79000000bu" />
+      </Wire>
+      <Wire Id="5662" StartRef="5631" EndRef="5661">
+        <Crn X="64000000bu" Y="75000000bu" />
+        <Crn X="64000000bu" Y="79000000bu" />
+      </Wire>
+      <Wire Id="5663" StartRef="5661" EndRef="5564">
+        <Crn X="64000000bu" Y="79000000bu" />
+        <Crn X="68000000bu" Y="79000000bu" />
+      </Wire>
+      <Wire Id="5676" StartRef="5567" EndRef="5677">
+        <Crn X="78000000bu" Y="81000000bu" />
+        <Crn X="81000000bu" Y="81000000bu" />
+      </Wire>
+      <Wire Id="5678" StartRef="5636" EndRef="5677">
+        <Crn X="81000000bu" Y="75000000bu" />
+        <Crn X="81000000bu" Y="81000000bu" />
+      </Wire>
+      <Wire Id="5679" StartRef="5569" EndRef="5680">
+        <Crn X="78000000bu" Y="83000000bu" />
+        <Crn X="81000000bu" Y="83000000bu" />
+      </Wire>
+      <Wire Id="5681" StartRef="5677" EndRef="5680">
+        <Crn X="81000000bu" Y="81000000bu" />
+        <Crn X="81000000bu" Y="83000000bu" />
+      </Wire>
+      <Wire Id="5682" StartRef="5570" EndRef="5680">
+        <Crn X="78000000bu" Y="84000000bu" />
+        <Crn X="81000000bu" Y="84000000bu" />
+        <Crn X="81000000bu" Y="83000000bu" />
+      </Wire>
+      <Wire Id="5701" StartRef="5571" EndRef="5702">
+        <Crn X="78000000bu" Y="85000000bu" />
+        <Crn X="80000000bu" Y="85000000bu" />
+      </Wire>
+      <Wire Id="5703" StartRef="5702" EndRef="5686">
+        <Crn X="80000000bu" Y="85000000bu" />
+        <Crn X="81000000bu" Y="85000000bu" />
+        <Crn X="81000000bu" Y="88000000bu" />
+      </Wire>
+      <Wire Id="5706" StartRef="5566" EndRef="5702">
+        <Crn X="78000000bu" Y="80000000bu" />
+        <Crn X="80000000bu" Y="80000000bu" />
+        <Crn X="80000000bu" Y="85000000bu" />
+      </Wire>
+    </SchPage>
+  </Schematic>
+  <Board Id="2">
+    <Prop Val="In" Nm="%%PCBCURRENTUNITS" />
+    <Prop Val="Top" Nm="%%PCBCURRENTLAYER" />
+    <Prop Val="500000bu,500000bu" Nm="%%PCBGRIDSIZE" />
+    <Prop Val="False" Nm="%%PCBHICONTRAST" />
+    <Prop Val="65312" Nm="%%PCBHICONTRASTCOLOR" />
+    <Prop Val="4279505940" Nm="%%PCBDIMCOLOR" />
+    <Prop Val="AllPickable" Nm="%%PCBPICKFLAGS" />
+    <Prop Val="25000000bu,15000000bu" Nm="%%PCBVIEWCENTER" />
+    <Prop Val="25000000bu" Nm="%%PCBVIEWRADIUS" />
+    <Prop Val="4278255360" Nm="%%PCBGRIDCOLOR" />
+    <Prop Val="3372220415" Nm="%%PCBPINNAMECOLOR" />
+    <Prop Val="3372220415" Nm="%%PCBNETNAMECOLOR" />
+    <Prop Val="4294967040" Nm="%%PCBRATCOLOR" />
+    <Prop Val="True" Nm="%%PCBCOPPERPOUR" />
+    <Prop Val="FR4" Nm="%%PCBBOARDMATERIAL" />
+    <Prop Val="0.062" Nm="%%PCBBOARDTHICKNESS" />
+    <Prop Val="OneOunce" Nm="%%PCBCOPPERWEIGHT" />
+    <Prop Val="Default" Nm="%%PCBFINISH" />
+    <Prop Val="True" Nm="%%PCBADDSOLDERMASK" />
+    <Prop Val="Default" Nm="%%PCBMASKTYPE" />
+    <Prop Val="Default" Nm="%%PCBMASKCOLOR" />
+    <Prop Val="True" Nm="%%PCBTOPSILK" />
+    <Prop Val="True" Nm="%%PCBBOTSILK" />
+    <Prop Val="Default" Nm="%%PCBSILKCOLOR" />
+    <Prop Val="2" Nm="%%PCBLAYERCOUNT" />
+    <Prop Val="False" Nm="%%PCBUSEWIDTHPERLAYER" />
+    <Prop Val="80000bu" Nm="%%PCBDEFAULTTRACEWIDTH" />
+    <Prop Val="30000bu" Nm="%%PCBDEFAULTSPACING" />
+    <Prop Val="30000bu" Nm="%%PCBDEFAULTTHERMALWIDTH" />
+    <Prop Val="135000bu" Nm="%%PCBDEFAULTVIADRILL" />
+    <Prop Val="70000bu" Nm="%%PCBDEFAULTVIAANNULAR" />
+    <Prop Val="50000000000" Nm="%%PCBDEFAULTPOURMINSIZE" />
+    <Prop Val="80000bu" Nm="%%PCBRULESMINTRACE" />
+    <Prop Val="80000bu" Nm="%%PCBRULESMINSPACE" />
+    <Prop Val="135000bu" Nm="%%PCBRULESMINDRILLDIAM" />
+    <Prop Val="2500000bu" Nm="%%PCBRULESMAXDRILLDIAM" />
+    <Prop Val="70000bu" Nm="%%PCBRULESMINANNULAR" />
+    <Prop Val="200000bu" Nm="%%PCBRULESMINDISTTOEDGE" />
+    <Prop Val="False" Nm="%%PCBUSEMICROVIAS" />
+    <Prop Val="False" Nm="%%PCBUSEBLINDVIAS" />
+    <Prop Val="False" Nm="%%PCBUSEBURIEDVIAS" />
+    <Prop Val="False" Nm="%%PCBPLUGVIAS" />
+    <Prop Val="True" Nm="%%PCBTENTVIAS" />
+    <Prop Val="True" Nm="%%PCBREMOVEINNERPADS" />
+    <Prop Val="False" Nm="%%PCBUNCONNECTEDTPS" />
+    <Prop Val="False" Nm="%%PCBBEVELBOARDEDGE" />
+    <Prop Val="False" Nm="%%PCBCONSOLIDATEDRILLS" />
+    <Prop Val="Moderate" Nm="%%PCBPLACERPACKING" />
+    <Prop Val="Medium" Nm="%%PCBPLACEREFFORT" />
+    <Prop Val="RotateAny" Nm="%%PCBPLACERDISCRETEROT" />
+    <Prop Val="DoNotRotate" Nm="%%PCBPLACERCHIPROT" />
+    <Prop Val="False" Nm="%%PCBVIAINPAD" />
+    <Prop Val="False" Nm="%%PCBLARGEDECOUPLINGVIAS" />
+    <Prop Val="EncourageVias" Nm="%%PCBROUTERVIAUSAGE1" />
+    <Prop Val="Normal" Nm="%%PCBROUTERVIAUSAGE2" />
+    <Prop Val="10" Nm="%%PCBROUTERATTEMPTS1" />
+    <Prop Val="50" Nm="%%PCBROUTERATTEMPTS2" />
+    <Prop Val="250000bu" Nm="%%PCBROUTERGRID1" />
+    <Prop Val="250000bu" Nm="%%PCBROUTERGRID2" />
+    <Prop Val="Rats" Nm="%%PCBLAYERNAME" Idx="0" />
+    <Prop Val="3372220160" Nm="%%PCBLAYERCOLOR" Idx="0" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="0" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="0" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="0" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="0" />
+    <Prop Val="Top" Nm="%%PCBLAYERNAME" Idx="1" />
+    <Prop Val="3372154880" Nm="%%PCBLAYERCOLOR" Idx="1" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="1" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="1" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="1" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="1" />
+    <Prop Val="In1" Nm="%%PCBLAYERNAME" Idx="2" />
+    <Prop Val="3355492096" Nm="%%PCBLAYERCOLOR" Idx="2" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="2" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="2" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="2" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="2" />
+    <Prop Val="In2" Nm="%%PCBLAYERNAME" Idx="3" />
+    <Prop Val="3363832063" Nm="%%PCBLAYERCOLOR" Idx="3" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="3" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="3" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="3" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="3" />
+    <Prop Val="In3" Nm="%%PCBLAYERNAME" Idx="4" />
+    <Prop Val="3355486458" Nm="%%PCBLAYERCOLOR" Idx="4" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="4" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="4" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="4" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="4" />
+    <Prop Val="In4" Nm="%%PCBLAYERNAME" Idx="5" />
+    <Prop Val="3372187648" Nm="%%PCBLAYERCOLOR" Idx="5" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="5" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="5" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="5" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="5" />
+    <Prop Val="In5" Nm="%%PCBLAYERNAME" Idx="6" />
+    <Prop Val="3355443455" Nm="%%PCBLAYERCOLOR" Idx="6" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="6" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="6" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="6" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="6" />
+    <Prop Val="In6" Nm="%%PCBLAYERNAME" Idx="7" />
+    <Prop Val="3365495296" Nm="%%PCBLAYERCOLOR" Idx="7" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="7" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="7" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="7" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="7" />
+    <Prop Val="In7" Nm="%%PCBLAYERNAME" Idx="8" />
+    <Prop Val="3364407808" Nm="%%PCBLAYERCOLOR" Idx="8" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="8" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="8" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="8" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="8" />
+    <Prop Val="In8" Nm="%%PCBLAYERNAME" Idx="9" />
+    <Prop Val="3355484250" Nm="%%PCBLAYERCOLOR" Idx="9" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="9" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="9" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="9" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="9" />
+    <Prop Val="In9" Nm="%%PCBLAYERNAME" Idx="10" />
+    <Prop Val="3365929100" Nm="%%PCBLAYERCOLOR" Idx="10" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="10" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="10" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="10" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="10" />
+    <Prop Val="In10" Nm="%%PCBLAYERNAME" Idx="11" />
+    <Prop Val="3362017450" Nm="%%PCBLAYERCOLOR" Idx="11" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="11" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="11" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="11" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="11" />
+    <Prop Val="In11" Nm="%%PCBLAYERNAME" Idx="12" />
+    <Prop Val="3355489450" Nm="%%PCBLAYERCOLOR" Idx="12" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="12" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="12" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="12" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="12" />
+    <Prop Val="In12" Nm="%%PCBLAYERNAME" Idx="13" />
+    <Prop Val="3362043050" Nm="%%PCBLAYERCOLOR" Idx="13" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="13" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="13" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="13" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="13" />
+    <Prop Val="In13" Nm="%%PCBLAYERNAME" Idx="14" />
+    <Prop Val="3368596650" Nm="%%PCBLAYERCOLOR" Idx="14" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="14" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="14" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="14" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="14" />
+    <Prop Val="In14" Nm="%%PCBLAYERNAME" Idx="15" />
+    <Prop Val="3361996970" Nm="%%PCBLAYERCOLOR" Idx="15" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="15" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="15" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="15" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="15" />
+    <Prop Val="In15" Nm="%%PCBLAYERNAME" Idx="16" />
+    <Prop Val="3355463850" Nm="%%PCBLAYERCOLOR" Idx="16" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="16" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="16" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="16" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="16" />
+    <Prop Val="In16" Nm="%%PCBLAYERNAME" Idx="17" />
+    <Prop Val="3362017380" Nm="%%PCBLAYERCOLOR" Idx="17" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="17" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="17" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="17" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="17" />
+    <Prop Val="In17" Nm="%%PCBLAYERNAME" Idx="18" />
+    <Prop Val="3362017380" Nm="%%PCBLAYERCOLOR" Idx="18" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="18" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="18" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="18" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="18" />
+    <Prop Val="In18" Nm="%%PCBLAYERNAME" Idx="19" />
+    <Prop Val="3368570980" Nm="%%PCBLAYERCOLOR" Idx="19" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="19" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="19" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="19" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="19" />
+    <Prop Val="In19" Nm="%%PCBLAYERNAME" Idx="20" />
+    <Prop Val="3355489280" Nm="%%PCBLAYERCOLOR" Idx="20" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="20" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="20" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="20" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="20" />
+    <Prop Val="In20" Nm="%%PCBLAYERNAME" Idx="21" />
+    <Prop Val="3355463780" Nm="%%PCBLAYERCOLOR" Idx="21" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="21" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="21" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="21" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="21" />
+    <Prop Val="In21" Nm="%%PCBLAYERNAME" Idx="22" />
+    <Prop Val="3355463880" Nm="%%PCBLAYERCOLOR" Idx="22" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="22" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="22" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="22" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="22" />
+    <Prop Val="In22" Nm="%%PCBLAYERNAME" Idx="23" />
+    <Prop Val="3368550450" Nm="%%PCBLAYERCOLOR" Idx="23" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="23" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="23" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="23" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="23" />
+    <Prop Val="In23" Nm="%%PCBLAYERNAME" Idx="24" />
+    <Prop Val="3361996950" Nm="%%PCBLAYERCOLOR" Idx="24" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="24" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="24" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="24" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="24" />
+    <Prop Val="In24" Nm="%%PCBLAYERNAME" Idx="25" />
+    <Prop Val="3355443350" Nm="%%PCBLAYERCOLOR" Idx="25" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="25" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="25" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="25" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="25" />
+    <Prop Val="In25" Nm="%%PCBLAYERNAME" Idx="26" />
+    <Prop Val="3368588970" Nm="%%PCBLAYERCOLOR" Idx="26" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="26" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="26" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="26" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="26" />
+    <Prop Val="In26" Nm="%%PCBLAYERNAME" Idx="27" />
+    <Prop Val="3362035370" Nm="%%PCBLAYERCOLOR" Idx="27" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="27" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="27" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="27" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="27" />
+    <Prop Val="In27" Nm="%%PCBLAYERNAME" Idx="28" />
+    <Prop Val="3355481770" Nm="%%PCBLAYERCOLOR" Idx="28" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="28" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="28" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="28" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="28" />
+    <Prop Val="In28" Nm="%%PCBLAYERNAME" Idx="29" />
+    <Prop Val="3368601670" Nm="%%PCBLAYERCOLOR" Idx="29" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="29" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="29" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="29" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="29" />
+    <Prop Val="Bot" Nm="%%PCBLAYERNAME" Idx="30" />
+    <Prop Val="3355471359" Nm="%%PCBLAYERCOLOR" Idx="30" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="30" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="30" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="30" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="30" />
+    <Prop Val="Top Silk" Nm="%%PCBLAYERNAME" Idx="31" />
+    <Prop Val="3372220415" Nm="%%PCBLAYERCOLOR" Idx="31" />
+    <Prop Val="Bottom Silk" Nm="%%PCBLAYERNAME" Idx="32" />
+    <Prop Val="3363798911" Nm="%%PCBLAYERCOLOR" Idx="32" />
+    <Prop Val="Top Assy" Nm="%%PCBLAYERNAME" Idx="33" />
+    <Prop Val="4294967040" Nm="%%PCBLAYERCOLOR" Idx="33" />
+    <Prop Val="Bottom Assy" Nm="%%PCBLAYERNAME" Idx="34" />
+    <Prop Val="3363798784" Nm="%%PCBLAYERCOLOR" Idx="34" />
+    <Prop Val="Top Mask" Nm="%%PCBLAYERNAME" Idx="35" />
+    <Prop Val="3355489280" Nm="%%PCBLAYERCOLOR" Idx="35" />
+    <Prop Val="Botttom Mask" Nm="%%PCBLAYERNAME" Idx="36" />
+    <Prop Val="3355463680" Nm="%%PCBLAYERCOLOR" Idx="36" />
+    <Prop Val="Top Paste" Nm="%%PCBLAYERNAME" Idx="37" />
+    <Prop Val="3367239860" Nm="%%PCBLAYERCOLOR" Idx="37" />
+    <Prop Val="Bottom Paste" Nm="%%PCBLAYERNAME" Idx="38" />
+    <Prop Val="3361996900" Nm="%%PCBLAYERCOLOR" Idx="38" />
+    <Prop Val="Fab1" Nm="%%PCBLAYERNAME" Idx="39" />
+    <Prop Val="4271073941" Nm="%%PCBLAYERCOLOR" Idx="39" />
+    <Prop Val="Fab2" Nm="%%PCBLAYERNAME" Idx="40" />
+    <Prop Val="4268397960" Nm="%%PCBLAYERCOLOR" Idx="40" />
+    <Prop Val="Last Pcb Layer" Nm="%%PCBLAYERNAME" Idx="41" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="41" />
+    <Prop Val="Footprint Surface" Nm="%%PCBLAYERNAME" Idx="42" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="42" />
+    <Prop Val="Footprint Inner" Nm="%%PCBLAYERNAME" Idx="43" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="43" />
+    <Prop Val="Footprint Plane" Nm="%%PCBLAYERNAME" Idx="44" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="44" />
+    <Prop Val="Footprint Mask" Nm="%%PCBLAYERNAME" Idx="45" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="45" />
+    <Prop Val="Footprint Silk" Nm="%%PCBLAYERNAME" Idx="46" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="46" />
+    <Prop Val="Footprint Paste" Nm="%%PCBLAYERNAME" Idx="47" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="47" />
+    <Prop Val="Footprint Assy" Nm="%%PCBLAYERNAME" Idx="48" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="48" />
+    <Prop Val="Footprint Fab" Nm="%%PCBLAYERNAME" Idx="49" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="49" />
+    <Prop Val="Footprint Court" Nm="%%PCBLAYERNAME" Idx="50" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="50" />
+    <Prop Val="Footprint Height" Nm="%%PCBLAYERNAME" Idx="51" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="51" />
+    <Prop Val="Last Footprint Layer" Nm="%%PCBLAYERNAME" Idx="52" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="52" />
+    <Prop Val="All Layers" Nm="%%PCBLAYERNAME" Idx="53" />
+    <Prop Val="3372220415" Nm="%%PCBLAYERCOLOR" Idx="53" />
+    <Poly Id="90" Name="" Type="BoardOutline" Layer="AllLayers" LineWidth="250000bu">
+      <Crn X="0bu" Y="0bu" />
+      <Crn X="50000000bu" Y="0bu" />
+      <Crn X="50000000bu" Y="30000000bu" />
+      <Crn X="0bu" Y="30000000bu" />
+      <Crn X="0bu" Y="0bu" />
+    </Poly>
+  </Board>
+  <RulesDeck ServiceId="0" MaxLayers="54" MinBdSizeDimA="0" MinBdSizeDimB="0" MaxBdSizeDimA="2147483647" MaxBdSizeDimB="2147483647" MinTrace="80000" MinSpace="80000" MinDrillDiam="135000" MaxDrillDiam="2500000" MinAnnular="70000" MaxDrillsSqIn="0" MinRoutingBitDiam="0" MinDistToEdge="200000" />
+  <RulesDeck ServiceId="1" BoardQty="10" TurnTime="5" LayerCount="2" BoardMaterial="FR4" BoardThickness="1.57mm" SurfaceFinish="HASL" CopperWeight="1oz" SoldermaskSides="TopAndBottom" SoldermaskColor="Green" SoldermaskType="LPI" SilkscreenSides="TopAndBottom" SilkscreenColor="White" EdgePlating="False" ITAR="False" FlyingProbeTest="False" FileType="gbr" />
+  <RulesDeck ServiceId="3" BoardQty="10" TurnTime="5" LayerCount="2" BoardMaterial="FR4" BoardThickness="1.6mm" SurfaceFinish="HASL" CopperWeight="1oz" SoldermaskSides="TopAndBottom" SoldermaskColor="Green" SoldermaskType="LPI" SilkscreenSides="TopAndBottom" SilkscreenColor="White" EdgePlating="False" ITAR="False" FileType="gbr" />
+  <SchemeitBOMParts />
+</ElectronicDesign>
